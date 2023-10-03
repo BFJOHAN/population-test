@@ -1,0 +1,17 @@
+{
+  "name": "population-api",
+  "version": "1.0.0",
+  "description": "API to get and set city population",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "fast-csv": "^4.3.6",
+    "fastify": "^4.23.2",
+    "fastify-formbody": "^5.3.0",
+    "nedb": "^1.8.0"
+  }
+}
